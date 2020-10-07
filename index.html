@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shifumi 2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <div class="cadre_shifumi">
+        <div class="shifumi">
+            <h1>SHIFUMI</h1>
+        </div>
+    </div>
+    <div class="points">
+        <div class="cadre_score_joueur">
+            <div id="led1" class="led1"></div>
+            <div id="led2" class="led2"></div>
+            <div id="led3" class="led3"></div>
+
+        </div>
+        <div class="cadre_score_ordinateur">
+            <div id="ledo1" class="led_ordinateur1"></div>
+            <div id="ledo2" class="led_ordinateur2"></div>
+            <div id="ledo3" class="led_ordinateur3"></div>
+        </div>
+    </div>
+
+    <div class="nom_joueur">
+        <h3 onclick="change()" id="demo">
+            Choisis ton nom
+        </h3> 
+        <div class="nom_ordinateur">
+            <h4>
+                Ordinateur
+            </h4>
+        </div>
+  </div>
+    <div class="cadre_affichage">
+        <div class="affichage_joueur">
+            <img id="mdimg" src="ciseaux.svg" width="250px">
+        </div>
+        <div class="round">
+            <h2>
+                ROUND 1
+            </h2>
+        </div>
+
+        <div class="affichage_ordinateur">
+            <img id="mdimg2"  src="pierre.svg" width="250px">
+        </div>
+    </div>
+    <div class="choix_joueur">
+        <div class="choix_pierre">
+            <img onclick="changement_de_jeux1('pierre');changement_de_jeux2()" src="pierre.svg" width="250px">
+        </div>
+        <div class="choix_feuille">
+            <img onclick="changement_de_jeux1('feuille');changement_de_jeux2()" src="feuille.svg" width="250px">
+        </div>
+        <div class="choix_ciseaux">
+            <img onclick="changement_de_jeux1('ciseaux');changement_de_jeux2()"  src="ciseaux.svg" width="250px">
+        </div>
+    </div>
+</body>
+
+</html>

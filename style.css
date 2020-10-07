@@ -1,0 +1,102 @@
+body{
+    background-color: grey;
+}
+.cadre_shifumi{
+    border: 2px solid black;
+    background-color: blueviolet;
+    width: 150px;
+    text-align: center;
+   margin: auto;
+
+
+}
+.points{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2.5%;
+}
+
+.cadre_score_joueur{
+    border: 2px solid black;
+width: 250px;
+height: 85px;    
+display: flex;
+flex-direction: row;
+background-color:blueviolet;
+justify-content: center;
+}
+.led1{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: white;
+margin-top: 2%;
+}
+.led2{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 2%;
+}
+.led3{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 2%;
+}
+.cadre_score_ordinateur{
+    border: 2px solid black;
+width: 250px;
+height: 85px;    
+display: flex;
+flex-direction: row;
+background-color: blueviolet;
+justify-content: center;
+}
+.led_ordinateur1{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 2%;
+}
+.led_ordinateur2{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 2%;
+}
+.led_ordinateur3{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 2%;
+}
+.cadre_affichage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2.5%;
+}
+.choix_joueur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2.5%;
+}
+.nom_joueur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
