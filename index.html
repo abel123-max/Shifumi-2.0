@@ -44,9 +44,11 @@
             <img id="mdimg" src="ciseaux.svg" width="250px">
         </div>
         <div class="round">
-            <h2>
-                ROUND 1
+            <h2 id="nombre">
+           0
             </h2>
+            <h5 onclick="document.location.reload(false)" class="badge badge-light m-5" style="display: flex; justify-content: center;"> REPLAY
+            </h5>
         </div>
 
         <div class="affichage_ordinateur">
@@ -55,13 +57,13 @@
     </div>
     <div class="choix_joueur">
         <div class="choix_pierre">
-            <img onclick="changement_de_jeux1('pierre');changement_de_jeux2()" src="pierre.svg" width="250px">
+            <img onclick="changement_de_jeux1('pierre');" src="pierre.svg" width="250px">
         </div>
         <div class="choix_feuille">
-            <img onclick="changement_de_jeux1('feuille');changement_de_jeux2()" src="feuille.svg" width="250px">
+            <img onclick="changement_de_jeux1('feuille');" src="feuille.svg" width="250px">
         </div>
         <div class="choix_ciseaux">
-            <img onclick="changement_de_jeux1('ciseaux');changement_de_jeux2()"  src="ciseaux.svg" width="250px">
+            <img onclick="changement_de_jeux1('ciseaux');"  src="ciseaux.svg" width="250px">
         </div>
     </div>
 </body>
